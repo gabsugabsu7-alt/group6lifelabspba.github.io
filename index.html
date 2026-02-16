@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 6 Life Labs Project</title>
+    <style>
+        body {
+            background-color: white;
+            color: green;
+            font-family: Arial, sans-serif;
+        }
+        .menu {
+            margin: 10px 0;
+        }
+        .menu button {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+        .dropdown {
+            display: none;
+            position: relative;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div class="dropdown">
+            <button>Menu</button>
+            <div class="dropdown-content">
+                <a href="#main-problem">1. Main Problem</a>
+                <a href="#root-cause">2. Root Cause</a>
+            </div>
+        </div>
+        <button onclick="location.href='index.html';">Home</button>
+    </div>
+    <h1>Root Cause Analysis</h1>
+    <section id="main-problem">
+        <h2>Main Problem</h2>
+        <p>Content about the main problem regarding green packaging goes here.</p>
+    </section>
+    <section id="root-cause">
+        <h2>Root Cause Solutions</h2>
+        <p>Details about root cause solutions are outlined here.</p>
+    </section>
+</body>
+</html>
